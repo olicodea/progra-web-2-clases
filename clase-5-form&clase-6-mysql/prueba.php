@@ -30,7 +30,6 @@ if($user == "pepe" && $pw == "pedro") {
     //die();
 }
 */
-
 echo "TODO OK";
 ?>
 

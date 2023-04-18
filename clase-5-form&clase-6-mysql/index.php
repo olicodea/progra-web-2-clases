@@ -3,13 +3,50 @@ if(isset($_POST["btnEnviar"])) {
     $user = $_POST["user"];
     $pw = $_POST["pass"];
 
-    if($user == "pepe" && $pw == "pedro") {
-        $url = "prueba.php";
-        header("Location:" . $url);
-        exit();
-    } else {
-        echo "Error: Usuario o clave incorrecto/s";
+    // Clase 6 - MySQL
+
+    $db = new mysqli("localhost:3307", "root", "", "users");
+    #echo $db -> connect_errno;
+    #echo "<br>";
+    $sql = "SELECT idusuario, nick, nombre, clave FROM usuario WHERE nick = '$user' AND clave = '$pw'";
+
+    $resultado = $db->query($sql);
+
+    # $fila = $resultado->fetch_assoc();
+    # var_dump($fila);
+
+    #$filas = $resultado->fetch_all();
+
+    /*
+    foreach ($filas as $clave => $fila) {
+        echo "$fila[0] <br>";
+        echo "$fila[1] <br>";
+        echo "$fila[2] <br>";
+        echo "$fila[3] <br>";
     }
+    */
+
+    while($fila = $resultado->fetch_assoc()) {
+        echo "<div class='notify'>";
+        echo "Nick: " . $fila["nick"] . "<br>";
+        echo "Nombre: " . $fila["nombre"] . "<br>";
+        echo "</div>";
+    }
+
+    // Fin clase 6 - MySQL
+
+    // Clase 5 - Form
+
+    /*
+        if($user == "pepe" && $pw == "pedro") {
+            $url = "prueba.php";
+            header("Location:" . $url);
+            exit();
+        } else {
+            echo "Error: Usuario o clave incorrecto/s";
+        }
+    */
+    // Fin clase 5 - Form
 }
 ?>
 
@@ -41,7 +78,7 @@ if(isset($_POST["btnEnviar"])) {
             width: 35%;
         }
 
-        form label{
+        form label {
             text-align: left;
         }
 
@@ -69,6 +106,9 @@ if(isset($_POST["btnEnviar"])) {
     <input type="password" name="pass" id="password">
     <input type="submit" value="ENVIAR FORM" name="btnEnviar">
 </form>
+<script>
+
+</script>
 </body>
 </html>
 
