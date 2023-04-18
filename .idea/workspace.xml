@@ -7,14 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d2b922-54d2-4116-8381-427ba89e9bf4" name="Changes" comment="clase 6">
-      <change afterPath="$PROJECT_DIR$/clase-5-form&amp;clase-6-mysql/clase-6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clase-5-form&amp;clase-6-mysql/notas-clase-6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clase-5-form/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/clase-5-form&amp;clase-6-mysql/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clase-5-form/notas.md" beforeDir="false" afterPath="$PROJECT_DIR$/clase-5-form&amp;clase-6-mysql/notas-clase-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clase-5-form/prueba.php" beforeDir="false" afterPath="$PROJECT_DIR$/clase-5-form&amp;clase-6-mysql/prueba.php" afterDir="false" />
-    </list>
+    <list default="true" id="08d2b922-54d2-4116-8381-427ba89e9bf4" name="Changes" comment="clase 6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,8 +60,16 @@
       <option name="presentableId" value="Default" />
       <updated>1681770116604</updated>
       <workItem from="1681770117719" duration="4048000" />
-      <workItem from="1681781273621" duration="1572000" />
+      <workItem from="1681781273621" duration="1941000" />
     </task>
+    <task id="LOCAL-00001" summary="clase 6">
+      <created>1681782900393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681782900393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
