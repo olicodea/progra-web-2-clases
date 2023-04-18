@@ -1,4 +1,4 @@
-# Programación web 2 - Notas y Practica de clase - UNLaM
+# Programación web 2 - Notas y Práctica de clase - UNLaM
 
 Se subira el código de cada clase con notas en formato markdown
 
